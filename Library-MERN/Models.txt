@@ -1,0 +1,35 @@
+1. Book :
+	book id 
+	book name
+	description
+	bookImage
+	category
+	author name
+	pages
+	published date
+	added date
+	no of books
+	price	
+	
+2. User :
+	userId
+	name
+	rollNo		//Primary key
+	password
+	eMail
+	Mobile
+	photo
+	department
+	age
+	books borrowed []
+	pendingFine
+	isAdmin  (bool)
+	
+3. History : 
+	user id
+	book id
+	borrow date
+	return date
+	fine amnt
+	finePaid  (bool)
+	renewed
